@@ -1,0 +1,305 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+
+background:#0f0f0f;
+
+color:white;
+
+}
+
+/* Navbar */
+nav{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:20px 60px;
+
+background:#151515;
+
+}
+
+nav h2{
+
+color:#ff4d4d;
+
+}
+
+ul{
+
+display:flex;
+
+gap:25px;
+
+}
+
+li{
+
+list-style:none;
+
+}
+
+a{
+
+text-decoration:none;
+
+color:white;
+
+transition:0.3s;
+
+}
+
+a:hover{
+
+color:#ff4d4d;
+
+}
+
+/* Hero Section */
+
+.hero{
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+padding:80px;
+
+gap:80px;
+
+min-height:80vh;
+
+}
+
+.hero-text{
+
+max-width:500px;
+
+}
+
+.hero h1{
+
+font-size:45px;
+
+margin-bottom:10px;
+
+}
+
+.hero h3{
+
+color:#ff4d4d;
+
+margin-bottom:15px;
+
+}
+
+.hero p{
+
+line-height:1.8;
+
+color:#d7d7d7;
+
+}
+
+button{
+margin-top:25px;
+
+padding:12px 24px;
+
+border:none;
+
+border-radius:8px;
+
+background:#d62828;
+
+color:white;
+
+cursor:pointer;
+
+font-size:15px;
+
+}
+
+button:hover{
+
+background:#ff3b3b;
+
+}
+
+button:active{
+    background:#8f1111;
+}
+
+.hero-image img{
+
+width:260px;
+
+height:260px;
+
+border-radius:50%;
+
+object-fit:cover;
+
+border:4px solid #d62828;
+
+}
+.hero-image img:hover{
+    box-shadow: 0 0 25px rgba(214,40,40,0.6);
+}
+
+
+
+section{
+
+padding:80px;
+
+}
+
+h2{
+
+font-size:30px;
+
+margin-bottom:30px;
+
+color:#ff4d4d;
+
+}
+
+/* Skills */
+.cards{
+
+display:flex;
+
+gap:20px;
+
+flex-wrap:wrap;
+
+}
+
+.cards div{
+
+background:#1b1b1b;
+
+padding:18px 30px;
+
+border-radius:10px;
+
+border:1px solid #333;
+
+}
+
+/* Projects */
+.project-box{
+
+background:#1b1b1b;
+
+padding:25px;
+
+margin-bottom:20px;
+
+border-radius:12px;
+
+border-left:4px solid #d62828;
+
+}
+
+.project-box h3{
+
+margin-bottom:10px;
+
+}
+.project-box:hover{
+    box-shadow: 0 0 20px rgba(214,40,40,0.5);
+}
+
+/* Contact */
+#contact p{
+
+margin-bottom:10px;
+
+color:#d7d7d7;
+
+}
+
+/* Footer */
+
+footer{
+
+padding:20px;
+
+text-align:center;
+
+background:#151515;
+
+color:#bbbbbb;
+
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+nav{
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+ul{
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+}
+
+.hero{
+
+flex-direction:column;
+
+text-align:center;
+
+padding:50px 30px;
+
+}
+
+.hero h1{
+
+font-size:34px;
+
+}
+
+.hero-image img{
+
+width:220px;
+
+height:220px;
+
+}
+
+section{
+
+padding:50px 30px;
+
+}
+
+.cards{
+
+justify-content:center;
+
+}
+
+}
